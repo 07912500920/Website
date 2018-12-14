@@ -1,0 +1,88 @@
+html{height: 100%;}
+
+body
+{ font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'
+  padding: 0px;
+  margin: 0px;
+  font-size: .84em;
+  background: #C8AE00;
+  color: #000000;}
+
+p
+{ margin: 0px;
+  padding: 0px 0px 0px 0px;
+  line-height: 1.7em;}
+
+#frameHolder {
+	width:295px;
+	margin-top: -70px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+:hover
+{ border-bottom: 1px solid;
+  color: #0;}
+
+
+#main, #site_content, #footer
+{ margin-left: auto; 
+  margin-right: auto;}
+
+
+#menubar
+{ width: 870px;
+  height: 46px;
+  padding-top: 4px;
+  padding-left: 4px;} 
+
+ul#menu
+{ float: right;
+  margin: 0px;}
+
+ul#menu li
+{ float: left;
+  margin: 5px 0 0 0;
+  padding: 0 0 0 0px;
+  list-style: none;}
+
+ul#menu li a
+{ letter-spacing: 0.1em;
+  font-family: sans-serif;
+  font-size: 120%;
+  display: block; 
+  float: left; 
+  height: 20px;
+  text-decoration: none; 
+  padding: 9px 15px 5px 15px;
+  text-align: center;
+  color: #FFF;
+  border: none;} 
+
+#site_content
+{ width: 858px;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  padding: 10px 20px 20px 20px;
+  background: #FFFDFD url(back.png) repeat-y;
+  border: 15px solid #FFF;} 
+
+#footer
+{ width: 916px;
+  font-family: 'trebuchet ms', sans-serif;
+  font-size: 90%;
+  height: 28px;
+  padding: 20px 0 5px 0;
+  text-align: center; 
+  background: transparent;
+  color: #050505;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;}
+
+#footer p
+{ padding: 0;}
+
+#footer a, #footer a:hover
+{ color: #070707;
+  text-decoration: none;}
